@@ -1,3 +1,4 @@
-@media screen and (min-width: 1024px){
+/* setting screen minimun size for desktop */
+@media screen and (min-width: 767px) and (max-width: 1023px){
     
 }

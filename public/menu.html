@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/font-setting.css" />
+    <link rel="stylesheet" href="../assets/css/desktop.css" />
+    <link rel="stylesheet" href="../assets/css/tablet.css" />
+    <link rel="stylesheet" href="../assets/css/cellphone.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- sidebar -->
+    <div class="offcanvas offcanvas-start" id="sidebar">
+
+        <div class="offcanvas-body text-end">
+            <div class="list-group">
+                <a type="button" href="index.html" class="list-group-item list-group-item-action list-group-item-danger"><i class="fa-solid fa-house"></i> Início</a>
+                <a type="button" href="menu.html" class="list-group-item list-group-item-action list-group-item-danger"><i class="fa-solid fa-list"></i> Ver o cardápio</a>
+            </div>
+        </div>
+    </div>
+    <!-- end of side bar -->
+    <div class="conteiner-fluid h-100 p-0 m-0">
+        <!-- HEADER-->
+        <header class="row d-flex align-items-center p-0 m-0">
+            <!-- button for open sidebar -->
+            <div class="col-1">
+                <button class="btn btn-danger rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <main class="w-100 p-0 m-0 d-flex align-items-center justify-content-center menu">
+            <div id="main">
+
+            </div>
+        </main>
+        <div class="section">
+            <div class="custom-shape-divider-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container py-5">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    <h3 class="display-3 text-start">Carne</h3>
+                    <div class="container-fluid row">
+                        <div class="col-md-6">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/carne.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="menu-list-left">
+                                <li>Almondegas</li>
+                                <li>Bife a rolê de carne</li>
+                                <li>Bife a rolê de frango</li>
+                                <li>Carne de panela</li>
+                                <li>Cupim</li>
+                                <li>Frango a caçarola</li>
+                                <li>Lagarto</li>
+                                <li>Sobrecoxa do frango de assado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    <h3 class="display-3 text-start">Salada</h3>
+                    <div class="container-fluid row">
+                        <div class="col-md-6">
+                            <ul class="menu-list-right">
+                                <li>Maionese</li>
+                                <li>Salpicão</li>
+                                <li>Salada de frios</li>
+                                <li>Salada mista</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/saladas.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    
+                    <h3 class="display-3 text-start">Massas com molho</h3>
+                    <div class="container-fluid row">
+                        <div class="col-md-6">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/massas.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="menu-list-left">
+                                <li>Capeletti</li>
+                                <li>Canelone</li>
+                                <li>Lasanha</li>
+                                <li>Nhoque</li>
+                                <li>Macarrão</li>
+                                <li>Manicaratti</li>
+                                <li>Raviolli</li>
+                                <li>Rondelli</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    <h3 class="display-3 text-start">Massas sem molho</h3>
+                    <div class="container-fluid row">
+                        <div class="col-md-6">
+                            <ul class="menu-list-right">
+                                <li>Capeletti</li>
+                                <li>Canelone</li>
+                                <li>Lasanha</li>
+                                <li>Nhoque</li>
+                                <li>Macarrão</li>
+                                <li>Manicaratti</li>
+                                <li>Massa para pastel</li>
+                                <li>Raviolli</li>
+                                <li>Rondelli</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/massas-crua.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    <h3 class="display-3 text-start">Tortas</h3>
+                    <div class="container-fluid row">
+                        <div class="col-md-6">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/tortas.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Sabores</h2>
+                            <ul class="menu-list-left torta">
+                                <li>Frango</li>
+                                <li>Frango com catupiry</li>
+                                <li>Mista</li>
+                                <li>Palmito</li>
+                            </ul>
+                            <h2>Tamanho</h2>
+                            <ul class="menu-list-left torta">
+                                <li>Grande</li>
+                                <li>Média</li>
+                                <li>Pequenha</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    <h3 class="display-3 text-start">Outros</h3>
+                    <div class="container-fluid row">
+                        <div class="col-md-6">
+                            <ul class="menu-list-right">
+                                <li>Arroz branco</li>
+                                <li>Arroz a grega</li>
+                                <li>Arroz com frango</li>
+                                <li>Cuscuz</li>
+                                <li>Pudim</li>
+                                <li style="line-height:1.4em">Pastel assado
+                                <br /><small>Carne</small>
+                                <br /><small>Palmito</small>
+                                <br /><small>Queijo</small>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/pudim.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="w-100 h-100 d-flex justify-content-center">
+                <div class="h-100 text-center">
+                    <ul class="rodape mt-5">
+                        <li><hr /></li>
+                        <li>Ponto Certo Rotisserie</li>
+                        <li class="year">&copy; </li>
+                        <!-- autoral ? -->
+                        <li><small></small></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+
+
+
+    <script src="../assets/js/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(() => {
+            var y = new  Date().getFullYear();
+            $("li.year").html("&copy; " + y);
+        })
+    </script>
+</body>
+</html>

@@ -1,13 +1,7 @@
-/* setting font-family */
-@font-face { font-family: inter; src: url("../fonts/Inter-Regular.ttf"); font-weight: normal; } 
-@font-face { font-family: inter; src: url("../fonts/Inter-Bold.ttf"); font-weight: bold; } 
-@font-face { font-family: inter; src: url("../fonts/Inter-Light.ttf"); font-weight: 300; } 
-@font-face { font-family: inter; src: url("../fonts/Inter-Thin.ttf"); font-weight: 100; } 
 
-/* setting screen minimun size */
-@media screen and (min-width: 767px) and (max-width: 1023px) { 
-    
-    html, body { padding: 0; margin: 0; font-family: inter; } 
-    .container-fluid { padding: 0; } 
-    header { } 
-}
+
+/* setting screen minimun size for desktop */
+@media screen and (min-width: 1024px) {
+
+ 
+ }
