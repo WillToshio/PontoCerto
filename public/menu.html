@@ -34,8 +34,8 @@
                 </button>
             </div>
         </header>
-        <main class="w-100 p-0 m-0 d-flex align-items-center justify-content-center menu">
-            <div id="main">
+        <main class="w-100 p-0 m-0 d-flex align-items-center justify-content-center menu" onContextMenu="return false;" >
+            <div id="main" onContextMenu="return false;" >
 
             </div>
         </main>
@@ -51,21 +51,21 @@
                 <div class="p-5 mb-3 bg-light rounded-3">
                     <h3 class="display-3 text-start">Carne</h3>
                     <div class="container-fluid row">
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-8 col-md-12">
                             <div class="card" class="h-100">
-                                <img src="../assets/img/carne.png" class="card-img-top" alt="...">
+                                <img src="../assets/img/carne.png" class="card-img-top" alt="imagem de uns lagarto fatiado" onContextMenu="return false;" >
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <ul class="menu-list-left">
-                                <li>Almondegas</li>
-                                <li>Bife a rolê de carne</li>
-                                <li>Bife a rolê de frango</li>
-                                <li>Carne de panela</li>
-                                <li>Cupim</li>
-                                <li>Frango a caçarola</li>
-                                <li>Lagarto</li>
-                                <li>Sobrecoxa do frango de assado</li>
+                        <div class="col-xl-6 col-lg-4 col-md-12">
+                            <ul role="list"  class="menu-list align-xs-center align-lg-left">
+                                <li role="listitem">Almondegas</li>
+                                <li role="listitem">Bife a rolê de carne</li>
+                                <li role="listitem">Bife a rolê de frango</li>
+                                <li role="listitem">Carne de panela</li>
+                                <li role="listitem">Cupim</li>
+                                <li role="listitem">Frango a caçarola</li>
+                                <li role="listitem">Lagarto</li>
+                                <li role="listitem">Sobrecoxa do frango de assado</li>
                             </ul>
                         </div>
                     </div>
@@ -74,19 +74,19 @@
             <div class="container py-5">
                 <div class="p-5 mb-3 bg-light rounded-3">
                     <h3 class="display-3 text-start">Salada</h3>
-                    <div class="container-fluid row">
-                        <div class="col-md-6">
-                            <ul class="menu-list-right">
-                                <li>Maionese</li>
-                                <li>Salpicão</li>
-                                <li>Salada de frios</li>
-                                <li>Salada mista</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
+                    <div class="container-fluid row d-flex flex-row-reverse">
+                        <div class="col-xl-6 col-lg-8 col-md-12">
                             <div class="card" class="h-100">
-                                <img src="../assets/img/saladas.png" class="card-img-top" alt="...">
+                                <img src="../assets/img/saladas.png" class="card-img-top" alt="imagem de uma maionese" onContextMenu="return false;" >
                             </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-12">
+                            <ul role="list"  class="menu-list align-xs-center align-lg-right">
+                                <li role="listitem">Maionese</li>
+                                <li role="listitem">Salpicão</li>
+                                <li role="listitem">Salada de frios</li>
+                                <li role="listitem">Salada mista</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -96,21 +96,21 @@
                     
                     <h3 class="display-3 text-start">Massas com molho</h3>
                     <div class="container-fluid row">
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-8 col-md-12">
                             <div class="card" class="h-100">
-                                <img src="../assets/img/massas.png" class="card-img-top" alt="...">
+                                <img src="../assets/img/massas.png" class="card-img-top" alt="imagem de nhoque ao molho sugo"  onContextMenu="return false;" >
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <ul class="menu-list-left">
-                                <li>Capeletti</li>
-                                <li>Canelone</li>
-                                <li>Lasanha</li>
-                                <li>Nhoque</li>
-                                <li>Macarrão</li>
-                                <li>Manicaratti</li>
-                                <li>Raviolli</li>
-                                <li>Rondelli</li>
+                        <div class="col-xl-6 col-lg-4 col-md-12">
+                            <ul role="list"  class="menu-list align-xs-center align-lg-left">
+                                <li role="listitem">Capeletti</li>
+                                <li role="listitem">Canelone</li>
+                                <li role="listitem">Lasanha</li>
+                                <li role="listitem">Nhoque</li>
+                                <li role="listitem">Macarrão</li>
+                                <li role="listitem">Manicaratti</li>
+                                <li role="listitem">Raviolli</li>
+                                <li role="listitem">Rondelli</li>
                             </ul>
                         </div>
                     </div>
@@ -119,24 +119,24 @@
             <div class="container py-5">
                 <div class="p-5 mb-3 bg-light rounded-3">
                     <h3 class="display-3 text-start">Massas sem molho</h3>
-                    <div class="container-fluid row">
-                        <div class="col-md-6">
-                            <ul class="menu-list-right">
-                                <li>Capeletti</li>
-                                <li>Canelone</li>
-                                <li>Lasanha</li>
-                                <li>Nhoque</li>
-                                <li>Macarrão</li>
-                                <li>Manicaratti</li>
-                                <li>Massa para pastel</li>
-                                <li>Raviolli</li>
-                                <li>Rondelli</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
+                    <div class="container-fluid row d-flex flex-row-reverse">
+                        <div class="col-xl-6 col-lg-8 col-md-12">
                             <div class="card" class="h-100">
-                                <img src="../assets/img/massas-crua.png" class="card-img-top" alt="...">
+                                <img src="../assets/img/massas-crua.png" alt="imagem de macarrão cru" class="card-img-top"  onContextMenu="return false;" >
                             </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-12">
+                            <ul role="list"  class="menu-list align-xs-center align-lg-right">
+                                <li role="listitem">Capeletti</li>
+                                <li role="listitem">Canelone</li>
+                                <li role="listitem">Lasanha</li>
+                                <li role="listitem">Nhoque</li>
+                                <li role="listitem">Macarrão</li>
+                                <li role="listitem">Manicaratti</li>
+                                <li role="listitem">Massa para pastel</li>
+                                <li role="listitem">Raviolli</li>
+                                <li role="listitem">Rondelli</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -145,24 +145,24 @@
                 <div class="p-5 mb-3 bg-light rounded-3">
                     <h3 class="display-3 text-start">Tortas</h3>
                     <div class="container-fluid row">
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-8 col-md-12">
                             <div class="card" class="h-100">
-                                <img src="../assets/img/tortas.png" class="card-img-top" alt="...">
+                                <img src="../assets/img/tortas.png" class="card-img-top" alt="imagem de uma torta" onContextMenu="return false;" >
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-4 col-md-12">
                             <h2>Sabores</h2>
-                            <ul class="menu-list-left torta">
-                                <li>Frango</li>
-                                <li>Frango com catupiry</li>
-                                <li>Mista</li>
-                                <li>Palmito</li>
+                            <ul role="list"  class="menu-list align-xs-center align-lg-left line-lg-3">
+                                <li role="listitem">Frango</li>
+                                <li role="listitem">Frango com catupiry</li>
+                                <li role="listitem">Mista</li>
+                                <li role="listitem">Palmito</li>
                             </ul>
                             <h2>Tamanho</h2>
-                            <ul class="menu-list-left torta">
-                                <li>Grande</li>
-                                <li>Média</li>
-                                <li>Pequenha</li>
+                            <ul  role="list" class="menu-list align-xs-center align-lg-left line-lg-3">
+                                <li role="listitem">Grande</li>
+                                <li role="listitem">Média</li>
+                                <li role="listitem">Pequenha</li>
                             </ul>
                         </div>
                     </div>
@@ -171,25 +171,25 @@
             <div class="container py-5">
                 <div class="p-5 mb-3 bg-light rounded-3">
                     <h3 class="display-3 text-start">Outros</h3>
-                    <div class="container-fluid row">
-                        <div class="col-md-6">
-                            <ul class="menu-list-right">
-                                <li>Arroz branco</li>
-                                <li>Arroz a grega</li>
-                                <li>Arroz com frango</li>
-                                <li>Cuscuz</li>
-                                <li>Pudim</li>
-                                <li style="line-height:1.4em">Pastel assado
+                    <div class="container-fluid row d-flex flex-row-reverse">
+                        <div class="col-xl-6 col-lg-8 col-md-12">
+                            <div class="card" class="h-100">
+                                <img src="../assets/img/pudim.png" class="card-img-top" alt="imagem de um pudim" onContextMenu="return false;" >
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-12">
+                            <ul role="list" class="menu-list align-xs-center align-lg-right">
+                                <li role="listitem">Arroz branco</li>
+                                <li role="listitem">Arroz a grega</li>
+                                <li role="listitem">Arroz com frango</li>
+                                <li role="listitem">Cuscuz</li>
+                                <li role="listitem">Pudim</li>
+                                <li role="listitem" style="line-height:1.4em">Pastel assado
                                 <br /><small>Carne</small>
                                 <br /><small>Palmito</small>
                                 <br /><small>Queijo</small>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card" class="h-100">
-                                <img src="../assets/img/pudim.png" class="card-img-top" alt="...">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,17 +210,25 @@
         </footer>
     </div>
 
-    
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header text-danger">
+                <strong class="me-auto"><i class="fa-solid fa-circle-exclamation"></i> Aviso importate!</strong>
+            
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Estamos com problema no número 3371-6136!<br /> 
+                Atualmente funciona apenas como WhatsApp<br />
+                Nós pediomos sua compreensão!
+            </div>
+        </div>
+    </div>
 
 
 
     <script src="../assets/js/jquery-3.6.1.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(() => {
-            var y = new  Date().getFullYear();
-            $("li.year").html("&copy; " + y);
-        })
-    </script>
+    <script src="../assets/js/custom.js"></script>
 </body>
 </html>

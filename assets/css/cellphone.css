@@ -1,4 +1,24 @@
 /* setting screen minimun size for desktop */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 576px){
+    .section { background-color: white; width: 100%; padding: auto; margin: auto; } 
+    /* side bar */ 
+    .offcanvas { padding-top: 56px; background-color: brown; color: white; width: 100% !important; min-width: 200px; } 
+    .offcanvas-body { margin: 16px 0; padding: 0 } 
+    .list-group-item-danger { background-color: brown !important; color: white; } 
+    .list-group-item-danger:hover { background-color: rgb(235, 63, 63) !important; color: white !important; } 
 
+    .menu-list.align-xs-center { padding: 0; margin-top: 1em; list-style: none; text-align: center; font-size: 1.5em; line-height: 1.5em; text-indent: 0;} 
+}
+
+/* setting screen minimun size for desktop */
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .section { background-color: white; width: 100%; padding: auto; margin: auto; } 
+    /* side bar */ 
+    .offcanvas { padding-top: 56px; background-color: brown; color: white; width: 20% !important; min-width: 200px; } 
+    .offcanvas-body { margin: 16px 0; padding: 0 } 
+    .list-group-item-danger { background-color: brown !important; color: white; } 
+    .list-group-item-danger:hover { background-color: rgb(235, 63, 63) !important; color: white !important; } 
+
+
+    .menu-list.align-xs-center { padding: 0; margin-top: 1em; list-style: none; text-align: center; font-size: 1.5em; line-height: 1.5em; text-indent: 0;} 
 }

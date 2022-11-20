@@ -1,4 +1,23 @@
 /* setting screen minimun size for desktop */
-@media screen and (min-width: 767px) and (max-width: 1023px){
-    
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .section { background-color: white; width: 100%; padding: auto; margin: auto; } 
+    /* side bar */ 
+    .offcanvas { padding-top: 56px; background-color: brown; color: white; width: 15% !important; min-width: 200px; } 
+    .offcanvas-body { margin: 16px 0; padding: 0 } 
+    .list-group-item-danger { background-color: brown !important; color: white; } 
+    .list-group-item-danger:hover { background-color: rgb(235, 63, 63) !important; color: white !important; } 
+
+    .menu-list.align-xs-center { padding: 0; list-style: none; margin-top: 1em; text-align: center; font-size: 1.5em; line-height: 1.5em; text-indent: 0;} 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .section { background-color: white; width: 100%; padding: auto; margin: auto; } 
+     /* side bar */ 
+    .offcanvas { padding-top: 56px; background-color: brown; color: white; width: 15% !important; min-width: 200px; } 
+    .offcanvas-body { margin: 16px 0; padding: 0 } 
+    .list-group-item-danger { background-color: brown !important; color: white; } 
+    .list-group-item-danger:hover { background-color: rgb(235, 63, 63) !important; color: white !important; } 
+
+    .menu-list.align-lg-left { padding: 0; list-style: none; text-align: left; font-size: 1.5em; line-height: 1.5em; text-indent: 0;} 
+    .menu-list.align-lg-right { padding: 0; list-style: none; text-align: right; font-size: 1.5em; line-height: 1.5em; } 
 }

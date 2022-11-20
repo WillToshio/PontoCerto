@@ -1,21 +1,29 @@
 /* setting screen minimun size for desktop */
-@media screen and (min-width: 1024px) { html, body { padding: 0; margin: 0; font-family: inter; background-color: rgb(90, 46, 30); } 
- .container-fluid { padding: 0; } 
- header { height: 56px !important; width: 100%; background-color: brown; z-index: 9999; position: fixed; top: 0; } 
- main.index { background-image: url("../img/nhoque.png"); background-position: bottom; background-repeat: no-repeat; background-size: cover; height: 100vh; } 
- main.menu { background-image: url("../img/torta.png"); background-position: top; background-repeat: no-repeat; background-size: cover; height: 100vh; } 
- div#main { width: 75%; height: 75%; background-image: url("../img/logo.png"); background-position: center; background-size: contain; background-repeat: no-repeat; } 
- .custom-shape-divider-bottom { position: absolute; bottom: 0; left: 0; width: 100%; overflow: hidden; line-height: 0; transform: rotate(180deg); } 
- .custom-shape-divider-bottom svg { position: relative; display: block; width: calc(100% + 1.3px); height: 120px; } 
- .custom-shape-divider-bottom .shape-fill { fill: #FFFFFF; } 
- .section { background-color: white; width: 100%; padding: auto; margin: auto; } 
- footer { height: 200px; width: 100%; background-color: brown; color: white; } 
- ul.rodape { list-style: none; } 
- .offcanvas { padding-top: 56px; background-color: brown; color: white; width: 15% !important } 
- .offcanvas-body { margin: 16px 0; padding: 0 } 
- .list-group-item-danger { background-color: brown !important; color: white; } 
- .list-group-item-danger:hover { background-color: rgb(235, 63, 63) !important; color: white !important; } 
- .menu-list-left { padding: 0; list-style: none; text-align: left; font-size: 1.5em; line-height: 2em; text-indent: 0;} 
- .menu-list-left.torta { padding: 0; list-style: none; text-align: left; font-size: 1.5em; line-height: 1.5em; text-indent: 0;} 
- .menu-list-right { padding: 0; list-style: none; text-align: right; font-size: 1.5em; line-height: 2em; } 
+@media screen and (min-width: 1200px) { html, body { padding: 0; margin: 0; font-family: inter; } 
+   
+   
+    .section { background-color: white; width: 100%; padding: auto; margin: auto; } 
+ 
+    /* side bar */ 
+    .offcanvas { padding-top: 56px; background-color: brown; color: white; width: 15% !important; min-width: 200px; } 
+    .offcanvas-body { margin: 16px 0; padding: 0 } 
+    .list-group-item-danger { background-color: brown !important; color: white; } 
+    .list-group-item-danger:hover { background-color: rgb(235, 63, 63) !important; color: white !important; } 
+
+    .menu-list.align-lg-left { padding: 0; list-style: none; text-align: left; font-size: 1.5em; line-height: 2em; text-indent: 0;} 
+    .menu-list.line-lg-3 { padding: 0; list-style: none; text-align: left; font-size: 1.5em; line-height: 1.5em; text-indent: 0;} 
+    .menu-list.align-lg-right { padding: 0; list-style: none; text-align: right; font-size: 1.5em; line-height: 2em; } 
  }
+
+
+/* all views */
+.container-fluid { padding: 0; } 
+header { height: 56px !important; width: 100%; background-color: brown; z-index: 9999; position: fixed; top: 0; } 
+main.index { background-image: url("../img/nhoque.png"); background-position: bottom; background-repeat: no-repeat; background-size: cover; height: 100vh; } 
+main.menu { background-image: url("../img/torta.png"); background-position: top; background-repeat: no-repeat; background-size: cover; height: 100vh; } 
+div#main { width: 75%; height: 75%; background-image: url("../img/logo.png"); background-position: center; background-size: contain; background-repeat: no-repeat; } 
+.custom-shape-divider-bottom { position: absolute; bottom: 0; left: 0; width: 100%; overflow: hidden; line-height: 0; transform: rotate(180deg); } 
+.custom-shape-divider-bottom svg { position: relative; display: block; width: calc(100% + 1.3px); height: 8vh; min-height: 56px; } 
+.custom-shape-divider-bottom .shape-fill { fill: #FFFFFF; } 
+footer ul{ list-style: none; } 
+footer { height: 200px; width: 100%; background-color: brown; color: white; } 
